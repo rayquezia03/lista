@@ -1,7 +1,13 @@
 alert('O salário mínimo custa: R$ 788,00')
 
-const salario_total = Number.parseFloat(prompt('Digite o salario do usuário'))
-var qtde = (salario_total / 788)
-alert(` O funcionários recebe ${qtde} salários mínimos`)
+function calcular(salario){
+    var salario = Number.parseFloat(document.getElementById("salario").value);
+    var qtde = (salario / 788)
+    var form = qtde.toFixed(2)
+    if (form <=1){
+        return alert(` Você recebe ${form} salário mínimo`);
+    }else{
+        return alert(` Você recebe ${form} salários mínimos`);
+    }
+} 
 
-// ajusar a quantidade de casas decimais

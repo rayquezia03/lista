@@ -1,6 +1,7 @@
-const numero = Number.parseInt(prompt('Digite um número'))
+function procurar(num1){
+    var num1 = Number.parseFloat(document.getElementById("num").value);
+    var antecessor = num1 - 1;
+    var sucessor = num1 + 1;
+    return alert(` O numero escolhido foi ${num1} ,cujo antecessor é ${antecessor}, e o sucessor ${sucessor}!`)
+}
 
-var antecessor = numero - 1
-var sucessor = numero + 1
-
-alert(` O numero antecessor é ${antecessor}, e o sucessor é ${sucessor} `)
