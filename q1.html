@@ -1,32 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
+ 
 <head>
     <meta charset="utf-8">
-    <title> Lista 1 de Programação Móvel - questão 1 </title>
+    <title> Questão 7 </title>
     <link rel="stylesheet" type="text/css" href="css/q1.css">
 </head>
-
+ 
 <body>
-   
     <header>
-
+        <span id="eq">Gleyce e Rayane </span>
     </header>
-
-    <h2 style="text-align:center;"> Digite a idade</h2>
-    <span style="margin: 0px 40%;text-align:center;">
-		<input id="idade" type="number" style="padding: 10px;">
-		<button onclick="ano_meses()">Anos em meses</button>
-        <button onclick="meses_dia()">Meses em dias</button>
-		<br>
-        
-		
-    </span>
-
+    <div class="input">
+        <h2>Digite a sua idade:</h2>
+        <hr>
+        <input type="number" id="idade" placeholder="Digite a idade"><br>
+        <button onclick="validar_idade()"> Calcular </button> <br>
     <footer>
-        <a href="index.html"><button>Voltar</button></a>
+        <button type="button"><a href="index.html">Voltar</a></button>
     </footer>
-        <script src="js/q1.js"></script> 
 </body>
-
+<script type="text/javascript" src="js/q1.js"></script>
+ 
 </html>
