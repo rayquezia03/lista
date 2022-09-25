@@ -1,0 +1,33 @@
+header{
+	height: 10vh;
+	color: #fff;
+	background-color: #000;
+	margin-bottom: 50px;
+}
+
+
+button{
+	padding: 10px;
+	border: none;
+	background-color: #f05323;
+	color: #fff;
+	float: center;
+	margin: 50px;
+}
+footer button{
+	padding: 10px;
+	position: relative;
+	float: center;
+	margin: 50px;
+}
+footer button a{
+	text-decoration: none;
+	color: #fff;
+}	
+h1 {
+    text-align: center;
+
+}
+body{
+	text-align: center;
+}

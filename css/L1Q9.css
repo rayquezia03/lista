@@ -1,0 +1,51 @@
+body {
+    background-color: bisque;
+}
+
+header {
+    height: 10vh;
+    color: #fff;
+    background-color: #000;
+    margin-bottom: 50px;
+}
+
+
+h1 {
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.digitar {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.botao {
+    text-align: center;
+}
+
+footer button{
+	padding: 10px;
+	position: relative;
+	float: center;
+	margin: 50px;
+}
+footer button a{
+	text-decoration: none;
+	color: #fff;
+    float: center;
+}	
+button{
+	padding: 10px;
+	border: none;
+	background-color: #f05323;
+	color: #fff;
+	float: center;
+	margin: 50px;
+}
