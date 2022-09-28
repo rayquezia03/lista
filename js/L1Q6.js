@@ -1,7 +1,15 @@
-function procurar(num1){
-    var num1 = Number.parseFloat(document.getElementById("num").value);
-    var antecessor = num1 - 1;
-    var sucessor = num1 + 1;
-    return alert(` O numero escolhido foi ${num1} ,cujo antecessor é ${antecessor}, e o sucessor ${sucessor}!`)
-}
-
+function calcularBissexto() {
+    let day_array = [
+      'Segunda-Feira', 
+      'Terça-Feira', 
+      'Quarta-Feira', 
+      'Quinta-Feira', 
+      'Sexta-Feira', 
+      'Sábado', 
+      'Domingo'];
+    let date_full = new Date(document.form_main.date.value);
+    let calcular_bissexto = (ano) => (ano % 4 == 0 &&  ano % 100 != 0 ||  ano % 400 == 0)  
+    ? 'E bissexto' : 'Nao e bissexto';
+    document.querySelector('#tipo').innerText = calcular_bissexto(date_full.getFullYear());
+    document.querySelector('#dia').innerText = day_array[date_full.getDay()];
+  }
